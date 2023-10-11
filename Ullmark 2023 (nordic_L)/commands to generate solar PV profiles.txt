@@ -1,0 +1,4 @@
+using GlobalEnergyGIS
+for year in 1980:2019
+    GISsolar(gisregion="nordic_L", era_year=year, pvroof_area=1, plant_area=1, decimals=4)
+end

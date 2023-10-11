@@ -1,0 +1,3 @@
+using GlobalEnergyGIS
+allmodels, gain, err, iter = crossvalidateheat("all", max_depth=6, eta=0.05);
+predictheatdemand(;years=1980:2019,iter,max_depth=6,eta=0.05)

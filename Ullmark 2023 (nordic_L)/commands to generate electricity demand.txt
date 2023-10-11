@@ -1,0 +1,7 @@
+using GlobalEnergyGIS
+function try_output(year)
+    try predictdemand(gisregion="nordic_L",sspscenario="ssp2-26", sspyear=2050,era_year=year) catch; println("- FAILED FOR $year -") end
+end
+for year in 1980:2019
+    try_output(year)
+end

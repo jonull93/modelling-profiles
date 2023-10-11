@@ -1,0 +1,4 @@
+using GlobalEnergyGIS
+for year in 1980:2019
+    GISwind(gisregion="nordic_L", era_year=year, area_onshore=1,area_offshore=1, wind_specific_power=200,verbose=true, decimals=4)
+end
