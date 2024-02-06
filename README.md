@@ -1,4 +1,4 @@
-# Modeling Time-Series Data
+# Modelling Time-Series Data
 
 This repository contains the time-series data used in a study by [Ullmark et al. (2023)](https://dx.doi.org/10.2139/ssrn.4681508) with a focus on Northern Europe. The dataset is built upon ERA5 reanalysis data and utilizes the [GlobalEnergyGIS](https://github.com/niclasmattsson/GlobalEnergyGIS) repository for its generation. To convert from .mat files to .inc files, scripts available in [another repository](https://github.com/jonull93/PhD) have been used.
 
